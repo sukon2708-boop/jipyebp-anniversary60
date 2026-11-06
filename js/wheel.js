@@ -49,7 +49,7 @@ function draw(){
     ctx.rotate(a0 + slice/2);
     ctx.textAlign = "right";
     ctx.fillStyle = "rgba(60,30,40,.9)";
-    ctx.font = "bold 12px Prompt";
+    ctx.font = "bold 17px Prompt";
     ctx.fillText(items[i], r - 16, 6);
     ctx.restore();
   }
